@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Environment Variables & Secrets
+.env
+.env.*
+*.key
+*.pem
+*.secret
+
+# IDE and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Office / Excel Temporary Lock Files
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# Runtime logs and generated output (keep directories via .gitkeep)
+logs/*
+!logs/.gitkeep
+reports/*
+!reports/.gitkeep
+
+# Browser data/profiles
+browser_profile/
